@@ -2,7 +2,7 @@
 
 ## Demonstrates a basic Dynamic HTML Application using PHP
 
-It doesn't get much more crude than this, but is a great starting point for understanding how dynamic data-driven web applications work.
+It doesn't get much more crude than this, but is a great starting point for understanding how **dynamic data-driven web applications** work.
 
 Understand how this one works, and more modern/advanced/complex web development frameworks, won't seem so mysterious.
 
