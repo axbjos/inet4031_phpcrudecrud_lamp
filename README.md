@@ -13,3 +13,5 @@ Obviously everything is in the open and unsecure here.  This app assumes that th
 If it isn't, you'll need to update the credentials file and change "localhost" to whatever the IP address is of your database.
 
 ...and obviously change the credentials too...
+
+<img width="493" alt="Screen Shot 2022-09-28 at 6 26 52 PM" src="https://user-images.githubusercontent.com/38437671/192905931-41a5fac8-c889-42b6-8159-ecf7811483fb.png">
