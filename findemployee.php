@@ -10,7 +10,7 @@
 	<hr>
 	<?php
 
-                //access credentials fils
+                //access credentials file
                 include 'credentials.php';
 
                 //this is the php object oriented style of creating a mysql connection
