@@ -37,7 +37,7 @@
 		
 		//create the SQL select statement, notice the funky string concat at the end to variablize the query
 		//based on using the GET attribute
-		$sql = "UPDATE employees SET ".$emp_attr." = '".$new_val."' where " .$emp_no. " = '".$emp_no."'";
+		$sql = "UPDATE employees SET ".$emp_attr." = '".$new_val."' where " . "id" . " = '".$emp_no."'";
 
 		//run the update
                 if ($conn->query($sql) === TRUE){

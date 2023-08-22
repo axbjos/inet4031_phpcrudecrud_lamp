@@ -29,7 +29,7 @@
 		$hire_date = $_GET["hire_date"];
 		$birth_date = $_GET["birth_date"];
 
-		echo "Adding record for: " . $firstname . " " . $lastname;
+		echo "Adding record for: " . $first_name . " " . $last_name;
 	
 		echo "<br><br>";
 		

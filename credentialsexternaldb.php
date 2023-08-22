@@ -1,5 +1,4 @@
 <?php
-//$server = "localhost";        //use localhost if all on one server
 $servername = '192.168.56.101';     //if apache on diff server from db or using Docker, set IP address
 $dbname = 'employees';          //which db you're going to use
 $username = 'phpuser1';
