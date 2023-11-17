@@ -31,7 +31,7 @@
 	if ($result->num_rows > 0){
 			//print rows
 			while($row = $result->fetch_assoc()){
-				echo 'First Name: ' . $row["first_name"]. 'Last Name: ' . $row["last_name"];
+				echo 'First Name: ' . $row["first_name"]. ';Last Name: ' . $row["last_name"];
 	        // set response code - 200 OK
             http_response_code(200);
 			}
