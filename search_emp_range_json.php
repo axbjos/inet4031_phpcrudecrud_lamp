@@ -1,5 +1,6 @@
 <?php
 
+	//Example: http://172.16.234.128/search_emp_range_json.php?emp_no_low=499998&emp_no_high=499999
 	// required headers
 	// need this so that the data is return as JSON not HTML
 	header("Access-Control-Allow-Origin: *");
