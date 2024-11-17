@@ -1,3 +1,4 @@
+<!--Purely a PHP File used to implement an Application Programming Interface (API)-->	
 <?php
 
 	//############################################################################

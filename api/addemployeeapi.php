@@ -18,7 +18,7 @@
 
 	//super insecure, but for this app, not worried about that...yet
     //access credentials file for db credentials
-    include 'credentials.php';
+    include '../credentials.php';
 
 	//this is the php object oriented style of creating a mysql connection
 	$conn = new mysqli($servername, $username, $password, $dbname);  
