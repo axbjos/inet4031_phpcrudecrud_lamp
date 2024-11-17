@@ -1,11 +1,28 @@
-#Uses the "search emp no json" api
+###################################################
+#
+# PHP Crude CRUD Python Request Client v1.0
+#
+# Demonstration of the Python "requests" module
+#
+# The requests module is used to do a GET request
+# to the search_emp_no_json.php page.
+#
+# Prompts the user for a last name to search for.
+#
+# The last name is passed as a parameter in the 
+# GET request.
+#
+# Data returned from the server is in JSON format.
 # 
-#Example http://192.168.110.153/search_emp_no_json.php?emp_no=100000
+# The Python JSON module is used to create a Python Dictionary
+# from the JSON Data.
+#  
+# Example http://192.168.110.153/search_emp_no_json.php?emp_no=100000
 
 import requests # to communicate with API's via HTTP aka "REST"
 import json     # be able to handle the data as json
 
-crudeCrudApi = "http://192.168.110.153/search_emp_no_json.php?emp_no="
+crudeCrudApi = "http://172.16.234.128/search_emp_no_json.php?emp_no="
 
 # Ask user for input:
 

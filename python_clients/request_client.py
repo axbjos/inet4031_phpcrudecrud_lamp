@@ -12,7 +12,8 @@
 # The last name is passed as a parameter in the 
 # GET request.
 #
-# Raw data is printed to console.
+# Data returned from the server is HTML and is 
+# printed to the command line.
 
 import requests
 
