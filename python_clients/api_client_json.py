@@ -2,7 +2,9 @@
 #
 # PHP Crude CRUD Python Request Client v1.0
 #
-# Demonstration of the Python "requests" module
+# Demonstration of the Python "requests" and
+# "json" module.  Using Python to interact with
+# a JSON Web API.
 #
 # The requests module is used to do a GET request
 # to the search_emp_no_json.php page.
