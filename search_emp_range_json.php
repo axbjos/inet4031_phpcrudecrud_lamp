@@ -1,6 +1,6 @@
 <?php
 
-	//Example: http://172.16.234.128/search_emp_range_json.php?emp_no_low=499998&emp_no_high=499999
+	// example: http://172.16.234.128/search_emp_range_json.php?emp_no_low=499998&emp_no_high=499999
 	// required headers
 	// need this so that the data is return as JSON not HTML
 	header("Access-Control-Allow-Origin: *");
@@ -32,8 +32,8 @@
 	$result = $conn->query($sql);
 
 	// iterate through the rows
-	
 	if ($result->num_rows > 0){
+		
 		// if there was data process the rows
 		echo "[";
 			while($row = $result->fetch_assoc()){
