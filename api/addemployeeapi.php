@@ -1,4 +1,4 @@
-<!--Purely a PHP File-->	
+<!--Purely a PHP File used to implement an Application Programming Interface (API)-->	
 <?php
 
 	//############################################################################
@@ -8,14 +8,16 @@
 	// Name: addemployeejson.php
 	//
 	// Author: Joe Axberg
-	// Created: Sometime in 2021
+	// Created: 2021
+	// Updated: 2024
 	// 
-	// Note: It has JSON in the title, but has nothing to do with JSON right now
+	// Inserts a new record in the database
+	// Data passed as parameters in the URL
 	// 
 	//##########################################################################
 
 	//super insecure, but for this app, not worried about that...yet
-    //access credentials fils
+    //access credentials file for db credentials
     include 'credentials.php';
 
 	//this is the php object oriented style of creating a mysql connection
