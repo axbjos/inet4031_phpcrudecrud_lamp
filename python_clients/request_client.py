@@ -16,7 +16,7 @@
 
 import requests
 
-crudeCrudApi = 'http://172.16.234.128/phpcrudecrud/findemployee.php?lastname='
+crudeCrudApi = 'http://172.16.234.128/findemployee.php?lastname='
 
 # Ask user for input:
 
