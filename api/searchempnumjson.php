@@ -7,7 +7,8 @@
 	// Name: searchempnumjson.php
 	//
 	// Author: Joe Axberg
-	// Created: Sometime in 2021
+	// Created: 2021
+	// Updated: 2024
 	// 
 	// Note: Returns a single record
 	// 
@@ -19,7 +20,7 @@
 
 	//access credentials fils
 	//super insecure, but for this app, not worried about that...yet
-    include 'credentials.php';	
+    include '../credentials.php';	
 
 	//this is the php object oriented style of creating a mysql connection
 	$conn = new mysqli($servername, $username, $password, $dbname);  
