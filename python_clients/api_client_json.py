@@ -24,7 +24,7 @@
 import requests # to communicate with API's via HTTP aka "REST"
 import json     # be able to handle the data as json
 
-crudeCrudApi = "http://172.16.234.128/searchempnumjson.php?emp_no="
+crudeCrudApi = "http://172.16.234.128/api/searchempnumjson.php?emp_no="
 
 # Ask user for input:
 
