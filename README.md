@@ -24,6 +24,10 @@ These PHP pages do not return a web page, but instead return data designed to be
 
 The "json" versions return the requested data in JSON format.
 
+## PHP Crude CRUD API Client
+
+Look in the "apiclients" directory for examples of very simple Python program use the "requests" module to interact with the simple Crude CRUD API's.
+
 ## AJAX
 
 The "ajax" pages demonstrate how to do real-time updates to a web page using Asynchronous JavaScript and XML. This is an older technology, but is a great place to start to learn how to create dynamic web pages that update content area real-time as a JavaScript client sends queries to backend server code.
